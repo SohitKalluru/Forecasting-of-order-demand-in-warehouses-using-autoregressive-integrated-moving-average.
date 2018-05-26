@@ -480,10 +480,10 @@ print '\n\n\n',results.summary()
 
 ## Results from analysis
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/FC_WA_A.PNG)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/FC_WA_C.PNG)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/FC_WA_J.PNG)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/FC_S_1.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/FC_WA_A.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/FC_WA_C.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/FC_WA_J.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/FC_S_1.PNG)
 
 ---
 
