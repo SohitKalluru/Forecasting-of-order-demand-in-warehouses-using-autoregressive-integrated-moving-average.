@@ -11,7 +11,7 @@ Book by Peter J. Brockwell and Richard A. Davis, Production and Operations Analy
 
 ---
 ## FORECASTING
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/Forecasting_Title_Image.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/5_Steps_Towards_Forecasting.PNG)
 
 ---
 ## Project outline
@@ -54,7 +54,7 @@ plotly.tools.set_credentials_file(username='MyAccount', api_key='********')
 
 ## 5 Steps towards Forecasting
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/5_Steps_Towards_Forecasting.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/5_Steps_Towards_Forecasting.PNG)
 
 ---
 
