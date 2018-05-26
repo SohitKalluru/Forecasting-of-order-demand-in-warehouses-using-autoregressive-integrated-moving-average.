@@ -1,4 +1,4 @@
-# Forecasting of order demand in warehouses using autoregressive integrated moving average.
+# Forecasting of order demand in warehouses using autoregressive integrated moving average(ARIMA)
 
 Authors:  **SOHIT REDDY KALLURU**,**VIJAY GANESH SRINIVASAN**,**RAMAKRISHNA POLEPEDDI** .
 
