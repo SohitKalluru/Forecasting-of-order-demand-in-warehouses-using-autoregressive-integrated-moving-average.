@@ -11,7 +11,7 @@ Book by Peter J. Brockwell and Richard A. Davis, Production and Operations Analy
 
 ---
 ## FORECASTING
-![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/5_Steps_Towards_Forecasting.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/Forecasting_Title_Image.PNG)
 
 ---
 ## Project outline
@@ -82,7 +82,7 @@ plotly.tools.set_credentials_file(username='MyAccount', api_key='********')
 
 ---
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/Steps_ARIMA_FORECASTING.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/Steps_ARIMA_FORECASTING.PNG)
 
 - The flow of the program is excuted in 2 ways.
 - One is as per the flow chart and the alternative one is by using Auto Arima algorithm which is pre-installed package in Anaconda Python.
@@ -177,10 +177,10 @@ for i in range(0, len(Warehouse)):
 
 ```
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/WH_A.png)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/WH_J.png)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/WH_S.png)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/WH_C.png)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/WH_A.png)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/WH_J.png)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/WH_S.png)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/WH_C.png)
 
 ---
 
@@ -263,10 +263,10 @@ def diff_warehouse(Whse_A):
    ```
 
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/Order_Demand_Whse_A.PNG)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/Order_Demand_Whse_J.PNG)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/Order_Demand_Whse_S.PNG)
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/Order_Demand_Whse_C.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/Order_Demand_Whse_A.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/Order_Demand_Whse_J.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/Order_Demand_Whse_S.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/Order_Demand_Whse_C.PNG)
 
 ### Dickey - Fuller test statistic
 - This is one of the statistical tests for checking stationarity. 
@@ -310,29 +310,29 @@ for i in range(0,len(Warehouse)):
  ```
 ---
 Dickey-Fuller test for A warehouse
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/DF_A.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/DF_A.PNG)
 ---
 Dickey-Fuller test for J warehouse
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/DF_J.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/DF_J.PNG)
 ---
 Dickey-Fuller test for C warehouse
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/DF_C.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/DF_C.PNG)
 ---
 Dickey-Fuller test for S warehouse
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/DF_S.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/DF_S.PNG)
 ---
 
 - From the Dickey-Fuller test we can say that for warehouse S, there is trend and seasonality since the p-value is greater than 0.05 (the test statistic is more than the critical value). So we have to use the decompose function from the statistics library to perform this operation.
 - Below shown is the decomposition of a actual value graph. Time series decomposition works by splitting a time series into three components: seasonality, trends and random fluctiation.
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/General_Explanation.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/General_Explanation.PNG)
 
 
 **Above image courtesy: https://anomaly.io/seasonal-trend-decomposition-in-r/**
 
 
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/WH_S_Seasonality.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/WH_S_Seasonality.PNG)
    
 ### Significance of ACF and PACF
 
@@ -361,7 +361,7 @@ for i in range(0,len(Warehouse)):
 - Below the ACF plot for warehouse S
 
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/ACF_S.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/ACF_S.PNG)
 
 
 **Partial Autocorrelation Function (PACF)** 
@@ -371,7 +371,7 @@ for i in range(0,len(Warehouse)):
 
 
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/PACF_S.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/PACF_S.PNG)
 
 - Till this method, we have done the manual coding that involves each and every step of ARIMA modeling.
 - For reducing the steps and building the model easiily there is one algorithm called `auto arima`.
@@ -423,7 +423,7 @@ print '\n\n\n',results.summary()
 ### Plotting diagnostics
 
 
-![Image of Plot](https://github.com/IE-555/final-project-arima_forecasting_team/blob/master/images/Diagnostic_S.PNG)
+![Image of Plot](https://github.com/SohitKalluru/Forecasting-of-order-demand-in-warehouses-using-autoregressive-integrated-moving-average./blob/master/images/Diagnostic_S.PNG)
 
 
 - In the top right plot, we see that the red KDE line follows closely with the N(0,1) line (where N(0,1)) is the standard notation for a normal distribution with mean 0 and standard deviation of 1). This is a good indication that the residuals are normally distributed.
