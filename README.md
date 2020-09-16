@@ -1,6 +1,6 @@
 # Forecasting of order demand in warehouses using autoregressive integrated moving average(ARIMA)
 
-Authors:  **SOHIT REDDY KALLURU**,**VIJAY GANESH SRINIVASAN**,**RAMAKRISHNA POLEPEDDI** .
+Authors:  **SOHIT R**,**VIJAY GANESH SRINIVASAN**,**RAMAKRISHNA POLEPEDDI** .
 
 YouTube Video:  [Link](https://www.youtube.com/watch?v=Yf_kFP6B_rQ)
 
